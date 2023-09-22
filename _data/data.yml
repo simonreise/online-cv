@@ -55,6 +55,7 @@ career-profile:
       
       Publications:
       orcid.org/0000-0002-8387-8809
+      
       elibrary.ru/author_profile.asp?authorid=1089215
       
 education:
@@ -90,23 +91,29 @@ experiences:
         company: Tyumen State University, Tyumen
         details: |
           - I created a model of Western Siberian forests using deep learning methods
+          
           I have trained a convolutional neural network based on DeepLab v3 architecture for modeling of the dominant tree species, type and quality of the forest using Sentinel-2 imagery, ASTER GDEM and ESA WorldCover landcover datasets. The accuracy of the model was 88%. I also proved the possibility of using the model throughout the whole taiga zone of Western Siberia.
           - I investigated how climate change and infrastructure development influenced mega fires dynamics in Western Siberian forest tundras
+          
           I estimated areas affected by fires in the period from 1985 to 2018 and the correlation between the main climatic indicators and the frequency of occurrence of mega fires. I investigated the consequences of fires - a violation of the extremely slowly recovering lichen cover and an increase in depth of the seasonally thawed layer of permafrost.
           - I worked in a precision farming project
+          
           I collected soil samples in several agricultural fields and processed UAV multispectral imagery that covers area of these fields using Metashape software.
       - role: Research assistiant
         time: 2021 - 2022
         company: Centre of Ecological Innovatons, Moscow
         details: |
           I investigated how oil mining companies can decrease their carbon footprint by saving forests from fires in Krasnoyarsk and Irkutsk regions
+          
           I accessed the fire damage in areas where additional fire fighting measures are being taken, and in areas where such measures are not carried out. Further, I estimated the amount of prevented carbon emission in case if fire prevention measures will be implemented in the whole investigation area.
+          
           I analyzed forest recovery on former agricultural lands for Altai afforestation project
       - role: Data analyst
         time: 2021
         company: Habidatum, Moscow
         details: |
           I calculated 14 ecological variables in 120 biggest russian cities for life quality assessment
+          
           I estimated the shares of protected areas, green and industrial zones in the total area of cities, the density of the street and road network, the change in the area of the green zones, the built-up area and the water level in reservoirs over time, the density of buildings per capita and the gap between the rate of development of the territory and the rate of population change in cities using different spatial datasets.
 
 certifications:
@@ -116,9 +123,9 @@ certifications:
           start: 2022
           end: 
           organization: EUMETSAT
-          credentialid: 
+          credentialid: r1t04go
           credentialurl: https://www.futurelearn.com/certificates/r1t04go
-          credentialname: 
+          credentialname: r1t04go
 
         - name: "Spatial Data Science: The New Frontier in Analytics MOOC"
           start: 2020
@@ -135,7 +142,9 @@ projects:
         link: https://github.com/simonreise/remote-sensing-processor
         tagline: |
           Remote Sensing Processor is my pet project, a Python library for for geospatial raster data processing.
+          
           RSP can preprocess Sentinel-2 and Landsat imagery, create raster mosaics, calculate vegetation indices and perform image segmentation tasks using machine learning models.
+          
           RSP also have a GUI - the ML4QGIS plugin.
 
 publications:
