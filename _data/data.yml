@@ -4,261 +4,175 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Mikhail Moskovchenko
+    tagline: Geospatial Data Analyst
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: moskovchenkomike@gmail.com
+    phone: +374 93 336 224
+    timezone: AMT — Armenia Time - UTC+4
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    website:  #do not add http://
+    linkedin: moskovchenkomike
+    xing:
+    github: simonreise
+    telegram: simonreise # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Russian
           level: Native
 
+        - idiom: English
+          level: B2
+
         - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+          level: A2
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      GIS-analyst specialising in spatiotemporal analysis of landscape dynamics (vegetation, forest fires, landuse).
+
+      I have work experience:
+      - in major GIS applications (QGIS, ArcGIS, MapInfo)
+      - in programming in Python, including working with libraries for spatial data processing (GDAL, Rasterio, GeoPandas, Pyproj) and libraries for machine learning (Scikit-learn, Pytorch, Lightning, Keras, Transformers)
+      - in working with PostgreSQL databases
+      - in processing UAV imagery data in ODM, Metashape
+      
+      Publications:
+      orcid.org/0000-0002-8387-8809
+      elibrary.ru/author_profile.asp?authorid=1089215
+      
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD in Soil Science
+        university: Tyumen State University
+        time: 2022 - 2026
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          - Planned PhD thesis about using of deep learning methods for vegetation and landscape modelling
+          - Winner of Earth Sciences section of Science of the Future - Science of the youth conference 
+      - degree: Master in Ecology
+        university: Moscow State University
+        time: 2020 - 2022
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Grade: 4.5
+          - Master thesis on vegetation modelling of Western Siberian forests using deep learning methods
+      - degree: Bachelor in Geography
+        university: Tyumen State University
+        time: 2016 - 2020
+        details: |
+          Grade: 5.0
+          - Bachelor thesis about fire dynamics in forest tundras of Western Siberia
+          - Awarded with a winner diploma of Ya-Profi ecology olympiad in 2018 and 2020
+          - All-Russian Olympiad Grant beneficiary
+          - Scholarship from Rosneft
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Junior researcher
+        time: 2020 - 2022
+        company: Tyumen State University, Tyumen
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - I created a model of Western Siberian forests using deep learning methods
+          I have trained a convolutional neural network based on DeepLab v3 architecture for modeling of the dominant tree species, type and quality of the forest using Sentinel-2 imagery, ASTER GDEM and ESA WorldCover landcover datasets. The accuracy of the model was 88%. I also proved the possibility of using the model throughout the whole taiga zone of Western Siberia.
+          - I investigated how climate change and infrastructure development influenced mega fires dynamics in Western Siberian forest tundras
+          I estimated areas affected by fires in the period from 1985 to 2018 and the correlation between the main climatic indicators and the frequency of occurrence of mega fires. I investigated the consequences of fires - a violation of the extremely slowly recovering lichen cover and an increase in depth of the seasonally thawed layer of permafrost.
+          - I worked in a precision farming project
+          I collected soil samples in several agricultural fields and processed UAV multispectral imagery that covers area of these fields using Metashape software.
+      - role: Research assistiant
+        time: 2021 - 2022
+        company: Centre of Ecological Innovatons, Moscow
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          I investigated how oil mining companies can decrease their carbon footprint by saving forests from fires in Krasnoyarsk and Irkutsk regions
+          I accessed the fire damage in areas where additional fire fighting measures are being taken, and in areas where such measures are not carried out. Further, I estimated the amount of prevented carbon emission in case if fire prevention measures will be implemented in the whole investigation area.
+          I analyzed forest recovery on former agricultural lands for Altai afforestation project
+      - role: Data analyst
+        time: 2021
+        company: Habidatum, Moscow
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I calculated 14 ecological variables in 120 biggest russian cities for life quality assessment
+          I estimated the shares of protected areas, green and industrial zones in the total area of cities, the density of the street and road network, the change in the area of the green zones, the built-up area and the water level in reservoirs over time, the density of buildings per capita and the gap between the rate of development of the territory and the rate of population change in cities using different spatial datasets.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: Artificial Intelligence (AI) for Earth Monitoring MOOC
+          start: 2022
+          end: 
+          organization: EUMETSAT
+          credentialid: 
+          credentialurl: https://www.futurelearn.com/certificates/r1t04go
+          credentialname: 
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+        - name: Spatial Data Science: The New Frontier in Analytics MOOC
+          start: 2020
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          organization: ESRI
+          credentialid: 
+          credentialurl: 
+          credentialname: 
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Remote Sensing Processor
+        link: https://github.com/simonreise/remote-sensing-processor
+        tagline: |
+          Remote Sensing Processor is my pet project, a Python library for for geospatial raster data processing.
+          RSP can preprocess Sentinel-2 and Landsat imagery, create raster mosaics, calculate vegetation indices and perform image segmentation tasks using machine learning models.
+          RSP also have a GUI - the ML4QGIS plugin.
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Use of convolutional neural networks for geospatial modelling of species structure and taxation characteristics of forests (case study of Khanty-Mansi Autonomous Okrug - Yugra)
+        link: https://doi.org/10.21046/2070-7401-2023-20-2-75-93
+        authors: Moskovchenko M.D.
+        conference: Sovremennye Problemy Distantsionnogo Zondirovaniya Zemli iz Kosmosa, 20(2), 2023
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Spatiotemporal Analysis of Wildfires in the Forest Tundra of Western Siberia
+        link: https://doi.org/10.1134/S1995425520020092
+        authors: Moskovchenko, D. V., Aref’ev, S. P., Moskovchenko, M. D., Yurtaev, A. A
+        conference: Contemporary Problems of Ecology, 13, 2020
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Remote sensing of landscape dynamics of the Zapolyarnoye gas field
+        link: https://hal.science/hal-01816115/
+        authors: Moskovchenko M.D.
+        conference: 5​ th​ European Conference on Permafrost: Book of abstracts
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 80%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: GIS
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Data Analysis
+        level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: PostgreSQL
+        level: 60%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Docker
         level: 60%
 
 footer: >
