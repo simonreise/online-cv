@@ -125,7 +125,7 @@ certifications:
           organization: EUMETSAT
           credentialid: r1t04go
           credentialurl: https://www.futurelearn.com/certificates/r1t04go
-          credentialname: r1t04go
+          credentialname: 
 
         - name: "Spatial Data Science: The New Frontier in Analytics MOOC"
           start: 2020
