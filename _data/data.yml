@@ -134,12 +134,12 @@ certifications:
           credentialname: 
 
 projects:
-    title: Projects
+    title: Pet projects
     assignments:
       - title: Remote Sensing Processor
         link: https://github.com/simonreise/remote-sensing-processor
         tagline: |
-          Remote Sensing Processor is my pet project, a Python library for for geospatial raster data processing.
+          is a Python library for for geospatial raster data processing.
           
           RSP can preprocess Sentinel-2 and Landsat imagery, create raster mosaics, calculate vegetation indices and perform image segmentation tasks using machine learning models.
           
@@ -181,6 +181,9 @@ skills:
 
       - name: Docker
         level: 60%
+        
+      - name: UAV data processing
+        level: 80%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
