@@ -54,8 +54,7 @@ career-profile:
       - in processing UAV imagery data in ODM, Metashape
       
       Publications:
-      [ORCID](orcid.org/0000-0002-8387-88090
-      
+      [ORCID](orcid.org/0000-0002-8387-88090)
       [ELibrary](elibrary.ru/author_profile.asp?authorid=1089215)
       
 education:
@@ -140,11 +139,11 @@ projects:
     assignments:
       - title: Remote Sensing Processor
         link: https://github.com/simonreise/remote-sensing-processor
-        tagline: |
+        details: |
           Remote Sensing Processor is my pet project, a Python library for for geospatial raster data processing.
-          \n
+          
           RSP can preprocess Sentinel-2 and Landsat imagery, create raster mosaics, calculate vegetation indices and perform image segmentation tasks using machine learning models.
-          \n
+          
           RSP also have a GUI - the ML4QGIS plugin.
 
 publications:
