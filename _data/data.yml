@@ -54,9 +54,9 @@ career-profile:
       - in processing UAV imagery data in ODM, Metashape
       
       Publications:
-      orcid.org/0000-0002-8387-8809
+      [ORCID](orcid.org/0000-0002-8387-88090
       
-      elibrary.ru/author_profile.asp?authorid=1089215
+      [ELibrary](elibrary.ru/author_profile.asp?authorid=1089215)
       
 education:
     title: Education
@@ -125,7 +125,7 @@ certifications:
           organization: EUMETSAT
           credentialid: 
           credentialurl: https://www.futurelearn.com/certificates/r1t04go
-          credentialname: r1t04go
+          credentialname: Certificate
 
         - name: "Spatial Data Science: The New Frontier in Analytics MOOC"
           start: 2020
@@ -142,9 +142,9 @@ projects:
         link: https://github.com/simonreise/remote-sensing-processor
         tagline: |
           Remote Sensing Processor is my pet project, a Python library for for geospatial raster data processing.
-          
+          \n
           RSP can preprocess Sentinel-2 and Landsat imagery, create raster mosaics, calculate vegetation indices and perform image segmentation tasks using machine learning models.
-          
+          \n
           RSP also have a GUI - the ML4QGIS plugin.
 
 publications:
