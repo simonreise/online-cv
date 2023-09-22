@@ -54,7 +54,7 @@ career-profile:
       - in processing UAV imagery data in ODM, Metashape
       
       Publications:
-      [ORCID](orcid.org/0000-0002-8387-88090), [ELibrary](elibrary.ru/author_profile.asp?authorid=1089215)
+      [ORCID](https://orcid.org/0000-0002-8387-88090), [ELibrary](https://elibrary.ru/author_profile.asp?authorid=1089215)
       
 education:
     title: Education
@@ -122,7 +122,7 @@ certifications:
           end: 
           organization: EUMETSAT
           credentialid: 
-          credentialurl: https://www.futurelearn.com/certificates/r1t04go
+          credentialurl: futurelearn.com/certificates/r1t04go
           credentialname: Certificate
 
         - name: "Spatial Data Science: The New Frontier in Analytics MOOC"
