@@ -52,6 +52,8 @@ career-profile:
       - in programming in Python, including working with libraries for spatial data processing (GDAL, Rasterio, GeoPandas, Pyproj) and libraries for machine learning (Scikit-learn, Pytorch, Lightning, Keras, Transformers)
       - in working with PostgreSQL databases
       - in processing UAV imagery data in ODM, Metashape
+
+      Ready to relocate anywhere.
       
       Publications:
       [ORCID](https://orcid.org/0000-0002-8387-88090), [ELibrary](https://elibrary.ru/author_profile.asp?authorid=1089215)
@@ -63,7 +65,7 @@ education:
         university: Tyumen State University
         time: 2022 - 2026
         details: |
-          - Planned PhD thesis about using of deep learning methods for vegetation and landscape modelling
+          - My PhD thesis will be about geospatial modelling of forest and wetland vegetation in Western Siberia
           - Winner of Earth Sciences section of Science of the Future - Science of the youth conference 
       - degree: Master in Ecology
         university: Moscow State University
@@ -96,7 +98,7 @@ experiences:
           I estimated areas affected by fires in the period from 1985 to 2018 and the correlation between the main climatic indicators and the frequency of occurrence of mega fires. I investigated the consequences of fires - a violation of the extremely slowly recovering lichen cover and an increase in depth of the seasonally thawed layer of permafrost.
           - I worked in a precision farming project
           
-          I collected soil samples in several agricultural fields and processed UAV multispectral imagery that covers area of these fields using Metashape software.
+          I collected soil samples in several agricultural fields and processed UAV multispectral imagery that covers area of these fields using Metashape software and calculated vegetation indices.
       - role: Research assistiant
         time: 2021 - 2022
         company: Centre of Ecological Innovatons, Moscow
