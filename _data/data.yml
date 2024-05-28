@@ -92,10 +92,9 @@ experiences:
         details: |
           - I created a model of Western Siberian forests using deep learning methods
           
-          I have trained a convolutional neural network based on DeepLab v3 architecture for modeling of the dominant tree species, type and quality of the forest using Sentinel-2 imagery, ASTER GDEM and ESA WorldCover landcover datasets. The accuracy of the model was 88%. I also proved the possibility of using the model throughout the whole taiga zone of Western Siberia.
-          - I investigated how climate change and infrastructure development influenced mega fires dynamics in Western Siberian forest tundras
+          I have trained a DeepLab v3 convolutional neural network for modeling of the dominant tree species, type and quality of the forest using Sentinel-2 imagery, ASTER GDEM and ESA WorldCover datasets. The accuracy of the model was 88%. I also proved the possibility of using the model throughout the whole taiga zone of Western Siberia.
           
-          I estimated areas affected by fires in the period from 1985 to 2018 and the correlation between the main climatic indicators and the frequency of occurrence of mega fires. I investigated the consequences of fires - a violation of the extremely slowly recovering lichen cover and an increase in depth of the seasonally thawed layer of permafrost.
+          I estimated areas affected by fires in the period from 1985 to 2018 and the correlation between the main climatic indicators and the frequency of mega fires occurrence. I investigated the consequences of fires - a violation of the extremely slowly recovering lichen cover and an increase in depth of the seasonally thawed layer of permafrost.
           - I worked in a precision farming project
           
           I collected soil samples in several agricultural fields and processed UAV multispectral imagery that covers area of these fields using Metashape software and calculated vegetation indices.
