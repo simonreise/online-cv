@@ -150,6 +150,11 @@ projects:
 publications:
     title: Publications
     papers:
+      - title: Application of machine learning techniques for wetland type mapping in the Numto Nature Park (Western Siberia)
+        link: https://doi.org/10.1007/s12145-024-01654-3
+        authors: Moskovchenko M.D.
+        conference: Earth Science Informatics, 18, 107, 2025
+    
       - title: Use of convolutional neural networks for geospatial modelling of species structure and taxation characteristics of forests (case study of Khanty-Mansi Autonomous Okrug - Yugra)
         link: https://doi.org/10.21046/2070-7401-2023-20-2-75-93
         authors: Moskovchenko M.D.
