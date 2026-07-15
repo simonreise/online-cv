@@ -41,7 +41,7 @@ sidebar:
           level: Native
 
         - idiom: English
-          level: C1 (IELTS: 8.0)
+          level: "C1 (IELTS: 8.0)"
 
         - idiom: French
           level: A2
@@ -271,7 +271,7 @@ recommendations:
       He is a great employee!
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Skills & Proficiency
 
     toolset:
       - name: Python
