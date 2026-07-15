@@ -177,7 +177,7 @@ certifications:
           credentialurl: openlearning.unesco.org/certificates/6c8e56d604d842869c1b60041ec6a810
           credentialname: Certificate
 
-        - name: IELTS (Band score: 8.0)
+        - name: "IELTS (Band score: 8.0)"
           start: 2024
           end: 2026
           organization: British Counsil
@@ -230,7 +230,7 @@ publications:
       - title: Characterizing long-term boreal forest ecosystems dynamics in Khanty-Mansi Autonomous Okrug (Western Siberia) using time series remote sensing data and deep learning methods
         link: https://doi.org/10.1016/j.rsase.2026.102115
         authors: Moskovchenko M.D., Yurtaev A.A.
-        conference: Remote Sensing Applications: Society and Environment, 43, 102115, 2026
+        conference: "Remote Sensing Applications: Society and Environment, 43, 102115, 2026"
     
       - title: Application of machine learning techniques for wetland type mapping in the Numto Nature Park (Western Siberia)
         link: https://doi.org/10.1007/s12145-024-01654-3
@@ -271,26 +271,26 @@ recommendations:
       He is a great employee!
 
 skills:
-  title: Skills & Proficiency
+  title: "Skills & Proficiency"
 
-    toolset:
-      - name: Python
-        level: 90%
+  toolset:
+    - name: Python
+      level: 90%
 
-      - name: GIS
-        level: 90%
+    - name: GIS
+      level: 90%
 
-      - name: Data Analysis
-        level: 80%
+    - name: Data Analysis
+      level: 80%
 
-      - name: PostgreSQL
-        level: 60%
+    - name: PostgreSQL
+      level: 60%
 
-      - name: Docker
-        level: 60%
-        
-      - name: UAV data processing
-        level: 70%
+    - name: Docker
+      level: 60%
+      
+    - name: UAV data processing
+      level: 70%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
