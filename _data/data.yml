@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Mikhail Moskovchenko
-    tagline: Geospatial Data Analyst
+    tagline: GeoAI | Remote Sensing | Data Science
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -37,7 +37,7 @@ sidebar:
           level: Native
 
         - idiom: English
-          level: C1
+          level: C1 (IELTS: 8.0)
 
         - idiom: French
           level: A2
@@ -45,28 +45,32 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      GIS-analyst specialising in spatiotemporal analysis of landscape dynamics (vegetation, forest fires, landuse).
+      I am a geospatial data scientist and researcher specializing in the spatiotemporal analysis of landscape dynamics, carbon modeling, and GeoAI. My work focuses on building end-to-end machine learning and deep learning pipelines to monitor forest ecosystems, map permafrost wetlands, and model forest fire dynamics and pyrogenic emissions at regional scales.
 
-      I have work experience:
-      - in major GIS applications (QGIS, ArcGIS, MapInfo)
-      - in programming in Python, including working with libraries for spatial data processing (GDAL, Rasterio, GeoPandas, Pyproj) and libraries for machine learning (Scikit-learn, Pytorch, Lightning, Keras, Transformers)
-      - in working with PostgreSQL databases
-      - in processing UAV imagery data in ODM, Metashape
+      Core Expertise: GeoAI, Deep Learning for Computer Vision (Semantic Segmentation & Regression), Remote Sensing, Time Series Analytics, Carbon Accounting, and Climate-Disturbance Interactions.
 
-      Ready to relocate anywhere.
-      
-      Publications:
-      [ORCID](https://orcid.org/0000-0002-8387-8809), [ELibrary](https://elibrary.ru/author_profile.asp?authorid=1089215)
+      Technical Stack:
+      Languages & ML Frameworks: Python, PyTorch, PyTorch Lightning, Scikit-Learn, XGBoost, Hugging Face Transformers, TorchGeo.
+      Spatial Data Science: GDAL, Rasterio, GeoPandas, Rioxarray, Dask, QGIS, ArcGIS.
+      Photogrammetry: Agisoft Metashape, OpenDroneMap (ODM).
+    
+      🌍 Open to global relocation opportunities and innovative research or industry collaborations in GeoAI, climate tech, and remote sensing.
+    
+      Portfolios & Research
+      💻 [GitHub](github.com/simonreise)
+      🔬 [ORCID](https://orcid.org/0000-0002-8387-8809)
+      📚 [ELibrary](https://elibrary.ru/author_profile.asp?authorid=1089215)
       
 education:
     title: Education
     info:
-      - degree: PhD in Soil Science
+      - degree: PhD in Geoecology
         university: Tyumen State University
         time: 2022 - 2026
         details: |
-          - My PhD thesis will be about geospatial modelling of forest and wetland vegetation in Western Siberia
-          - Winner of Earth Sciences section of Science of the Future - Science of the youth conference 
+          Grade: 4.875
+          - My PhD thesis will be about Geoinformation modeling and geoecological assessment of the spatiotemporal dynamics of forest and swamp geosystems in Western Siberia using remote sensing data and machine learning methods
+          - Currently I'm on my final year and going to defend my PhD thesis soon
       - degree: Master in Ecology
         university: Moscow State University
         time: 2020 - 2022
@@ -87,38 +91,95 @@ experiences:
     title: Experiences
     info:
       - role: Junior researcher
-        time: 2020 - 2022
+        time: 2020 - 2026
         company: Tyumen State University, Tyumen
         details: |
-          - I created a model of Western Siberian forests using deep learning methods
+          - Long-Term Boreal Forest Dynamics Modeling (1984–2024)
           
-          I have trained a DeepLab v3 convolutional neural network for modeling of the dominant tree species, type and quality of the forest using Sentinel-2 imagery, ASTER GDEM and ESA WorldCover datasets. The accuracy of the model was 88%. I also proved the possibility of using the model throughout the whole taiga zone of Western Siberia.
-          - I investigated how climate change and infrastructure development influenced mega fires dynamics in Western Siberian forest tundras
+          Designed and trained SegFormer deep learning models to map and analyze 41-year dynamics of 5 key forest ecosystem attributes (dominant tree species, site productivity, forest type, growing stock, stand age) across the Khanty-Mansi Autonomous Okrug (534,800 km²).
           
-          I estimated areas affected by fires in the period from 1985 to 2018 and the correlation between the main climatic indicators and the frequency of mega fires occurrence. I investigated the consequences of fires - a violation of the extremely slowly recovering lichen cover and an increase in depth of the seasonally thawed layer of permafrost.
-          - I worked in a precision farming project
+          Quantified major ecological shifts, mapping a sharp decline in lichen-dominated highland forests and a significant post-disturbance transition from primary pine to secondary broadleaved stands.
           
-          I collected soil samples in several agricultural fields and processed UAV multispectral imagery that covers area of these fields using Metashape software and calculated vegetation indices.
+          - Wetland Type Mapping (Numto Nature Park)
+          
+          Developed and compared 15 machine learning models (4 classical ML, 11 deep learning) to classify ecologically sensitive peatlands and sporadic permafrost zone mires.
+          
+          - Remote Sensing Processor
+          
+          Optimized data and ML workflows by developing Remote Sensing Processor, an open-source geospatial ML Python library used to accelerate and automate raw satellite and terrain data preprocessing, patch generation, and deep learning pipeline workflows for regional-scale modeling.
+          
+          - Spatiotemporal Wildfire Dynamics in the Forest Tundra (1985–2018)
+          
+          Reconstructed a 33-year history of wildfire dynamics in northwestern Siberia using Normalized Burn Ratio (NBR) derived from Landsat imagery.
+          
+          Analyzed climate-fire interactions, proving a strong correlation between burned area and weather conditions.
+          
+          - Precision Agriculture Project
+          Managed soil sampling field campaign across multiple agricultural plots.
+          
+          Processed high-resolution UAV multispectral imagery using Agisoft Metashape to construct orthomosaics and calculate localized vegetation indices (NDVI) for crop health monitoring.
+      
       - role: Research assistiant
         time: 2021 - 2022
         company: Centre of Ecological Innovatons, Moscow
         details: |
-          I investigated how oil mining companies can decrease their carbon footprint by saving forests from fires in Krasnoyarsk and Irkutsk regions
+          - Corporate Carbon Footprint & Pyrogenic Emission Modeling
           
-          I accessed the fire damage in areas where additional fire fighting measures are being taken, and in areas where such measures are not carried out. Further, I estimated the amount of prevented carbon emission in case if fire prevention measures will be implemented in the whole investigation area.
+          Evaluated the economic and ecological viability of corporate carbon footprint reduction strategies for mining industry via targeted forest fire prevention programs across the Krasnoyarsk and Irkutsk regions.
           
-          I analyzed forest recovery on former agricultural lands for Altai afforestation project
+          Quantified burn severity and structural ecosystem damage across comparative control zones, evaluating areas with active firefighting infrastructure against baseline, unmanaged landscapes using satellite-derived spectral indices (NBR and dNBR).
+          
+          - Post-Agricultural Forest Recovery & Afforestation Analysis
+          
+          Assessed the health and development conditions of actively planted forest stands on abandoned agricultural lands for the Altai Afforestation Project.
+          
+          Provided critical spatial data to verify the integrity and growth trajectory of the afforestation project, supporting the rigorous calculation of regional carbon sequestration offsets. 
+      
       - role: Data analyst
         time: 2021
         company: Habidatum, Moscow
         details: |
-          I calculated 14 ecological variables in 120 biggest russian cities for life quality assessment
+          - Urban life quality assessment
           
-          I estimated the shares of protected areas, green and industrial zones in the total area of cities, the density of the street and road network, the change in the area of the green zones, the built-up area and the water level in reservoirs over time, the density of buildings per capita and the gap between the rate of development of the territory and the rate of population change in cities using different spatial datasets.
+          Engineered and calculated 14 distinct ecological and environmental variables across Russia’s 120 largest metropolitan areas to drive comprehensive urban life quality assessments.
+          
+          Estimated the shares of protected areas, green and industrial zones in the total area of cities, the density of the street and road network, the change in the area of the green zones, the built-up area and the water level in reservoirs over time, the density of buildings per capita and the gap between the rate of development of the territory and the rate of population change in cities using different spatial datasets.
 
 certifications:
       title: Certifications
       list:
+        - name: Professional Training Course "Machine Learning Engineer (for Experienced Professionals)"
+          start: 2026
+          end: 
+          organization: Yandex Practicum
+          credentialid: 2026-19465-003
+          credentialurl: 
+          credentialname:
+
+        - name: Introduction to the Integration of Animal Tracking and Remote Sensing
+          start: 2025
+          end: 
+          organization: NASA’s Applied Remote Sensing Training (ARSET) Program
+          credentialid: 
+          credentialurl:
+          credentialname:
+
+        - name: Introduction to Climate Data Analysis
+          start: 2024
+          end: 
+          organization: UNESCO
+          credentialid: 
+          credentialurl: openlearning.unesco.org/certificates/6c8e56d604d842869c1b60041ec6a810
+          credentialname: Certificate
+
+        - name: IELTS (Band score: 8.0)
+          start: 2024
+          end: 2026
+          organization: British Counsil
+          credentialid: 24AM500588MOSM001A
+          credentialurl: 
+          credentialname:
+
         - name: Artificial Intelligence (AI) for Earth Monitoring MOOC
           start: 2022
           end: 
@@ -133,7 +194,7 @@ certifications:
           organization: ESRI
           credentialid: 
           credentialurl: 
-          credentialname: 
+          credentialname:
 
 projects:
     title: Pet projects
@@ -141,15 +202,31 @@ projects:
       - title: Remote Sensing Processor
         link: https://github.com/simonreise/remote-sensing-processor
         tagline: |
-          is a Python library for for geospatial raster data processing.
-          
-          RSP can preprocess Sentinel-2 and Landsat imagery, create raster mosaics, calculate vegetation indices and perform image segmentation tasks using machine learning models.
-          
+          is my pet project, an open-source Python library for for geospatial ML and data processing.
+
+          End-to-End Geospatial ML Framework: RSP is designed to streamline the entire geospatial machine learning lifecycle – from raw imagery preprocessing to deep learning model training and spatial inference map generation.
+        
+          Multi-Sensor Data Pipelines: RSP includes automated preprocessing pipelines for Landsat and Sentinel-2 satellite data, implementing cloud masking, atmospheric correction, pansharpening, and Sentinel-2 20/60m band upscaling (super-resolution).
+        
+          Advanced Raster & DEM Analytics: RSP can generate seamless multi-band mosaics, compute hundreds of spectral indices via Awesome Spectral Indices, and calculate terrain attributes (aspect, slope, curvature, hillshade).
+          Geospatial Dataset Optimization: RSP includes a robust tile-generation engine that rasterizes vector maps, partitions large-scale rasters into synchronized patches, and structures them into an optimized ML-ready custom format (RSPDS) using Hugging Face Datasets and XBatcher.
+        
+          Flexible Hybrid ML/DL Engine: RSP provides unified, high-level API wrapper natively supporting both classical machine learning (e.g. SVM, Random Forest, Gradient Boosting) and advanced Deep Learning architectures (e.g. U-Net, DeepLab, SegFormer) for semantic segmentation and regression.
+        
+          Explainability & Validation Tooling: RSP provides explainable AI capabilities by adapting SHAP to compute pixel-level band importance in geospatial models, alongside custom TorchMetrics evaluation pipelines.
+        
+          Distribution: RSP is available across PyPI and Conda and uses GitHub Actions CI/CD pipelines for automated linting and unit testing.
+        
           RSP also have a GUI - the ML4QGIS plugin.
 
 publications:
     title: Publications
     papers:
+      - title: Characterizing long-term boreal forest ecosystems dynamics in Khanty-Mansi Autonomous Okrug (Western Siberia) using time series remote sensing data and deep learning methods
+        link: https://doi.org/10.1016/j.rsase.2026.102115
+        authors: Moskovchenko M.D., Yurtaev A.A.
+        conference: Remote Sensing Applications: Society and Environment, 43, 102115, 2026
+    
       - title: Application of machine learning techniques for wetland type mapping in the Numto Nature Park (Western Siberia)
         link: https://doi.org/10.1007/s12145-024-01654-3
         authors: Moskovchenko M.D.
@@ -175,7 +252,7 @@ skills:
 
     toolset:
       - name: Python
-        level: 80%
+        level: 90%
 
       - name: GIS
         level: 90%
@@ -190,7 +267,7 @@ skills:
         level: 60%
         
       - name: UAV data processing
-        level: 80%
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
