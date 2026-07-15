@@ -61,7 +61,7 @@ career-profile:
     
       🌍 Open to global relocation opportunities and innovative research or industry collaborations in GeoAI, climate tech, and remote sensing.
     
-      Portfolios & Research
+      Portfolios & Research: 
       💻 [GitHub](github.com/simonreise)
       🔬 [ORCID](https://orcid.org/0000-0002-8387-8809)
       📚 [ELibrary](https://elibrary.ru/author_profile.asp?authorid=1089215)
@@ -210,18 +210,19 @@ projects:
           is my pet project, an open-source Python library for for geospatial ML and data processing.
 
           End-to-End Geospatial ML Framework: RSP is designed to streamline the entire geospatial machine learning lifecycle – from raw imagery preprocessing to deep learning model training and spatial inference map generation.
-        
+          
           Multi-Sensor Data Pipelines: RSP includes automated preprocessing pipelines for Landsat and Sentinel-2 satellite data, implementing cloud masking, atmospheric correction, pansharpening, and Sentinel-2 20/60m band upscaling (super-resolution).
-        
+          
           Advanced Raster & DEM Analytics: RSP can generate seamless multi-band mosaics, compute hundreds of spectral indices via Awesome Spectral Indices, and calculate terrain attributes (aspect, slope, curvature, hillshade).
+          
           Geospatial Dataset Optimization: RSP includes a robust tile-generation engine that rasterizes vector maps, partitions large-scale rasters into synchronized patches, and structures them into an optimized ML-ready custom format (RSPDS) using Hugging Face Datasets and XBatcher.
-        
+          
           Flexible Hybrid ML/DL Engine: RSP provides unified, high-level API wrapper natively supporting both classical machine learning (e.g. SVM, Random Forest, Gradient Boosting) and advanced Deep Learning architectures (e.g. U-Net, DeepLab, SegFormer) for semantic segmentation and regression.
-        
+          
           Explainability & Validation Tooling: RSP provides explainable AI capabilities by adapting SHAP to compute pixel-level band importance in geospatial models, alongside custom TorchMetrics evaluation pipelines.
-        
+          
           Distribution: RSP is available across PyPI and Conda and uses GitHub Actions CI/CD pipelines for automated linting and unit testing.
-        
+          
           RSP also have a GUI - the ML4QGIS plugin.
 
 publications:
@@ -251,24 +252,6 @@ publications:
         link: https://hal.science/hal-01816115/
         authors: Moskovchenko M.D.
         conference: "5​ th​ European Conference on Permafrost: Book of abstracts"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
 
 skills:
   title: "Skills & Proficiency"
