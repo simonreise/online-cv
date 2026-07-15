@@ -208,7 +208,7 @@ projects:
         link: https://github.com/simonreise/remote-sensing-processor
         tagline: |
           is my pet project, an open-source Python library for for geospatial ML and data processing.
-
+          
           End-to-End Geospatial ML Framework: RSP is designed to streamline the entire geospatial machine learning lifecycle – from raw imagery preprocessing to deep learning model training and spatial inference map generation.
           
           Multi-Sensor Data Pipelines: RSP includes automated preprocessing pipelines for Landsat and Sentinel-2 satellite data, implementing cloud masking, atmospheric correction, pansharpening, and Sentinel-2 20/60m band upscaling (super-resolution).
