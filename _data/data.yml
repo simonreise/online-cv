@@ -207,7 +207,7 @@ projects:
       - title: Remote Sensing Processor
         link: https://github.com/simonreise/remote-sensing-processor
         tagline: |
-          is my pet project, an open-source Python library for for geospatial ML and data processing.
+          - RSP is my pet project, an open-source Python library for for geospatial ML and data processing.
           
           - End-to-End Geospatial ML Framework: RSP is designed to streamline the entire geospatial machine learning lifecycle – from raw imagery preprocessing to deep learning model training and spatial inference map generation.
           
@@ -223,7 +223,7 @@ projects:
           
           - Distribution: RSP is available across PyPI and Conda and uses GitHub Actions CI/CD pipelines for automated linting and unit testing.
           
-          RSP also have a GUI - the ML4QGIS plugin.
+          - RSP also have a GUI - the ML4QGIS plugin.
 
 publications:
     title: Publications
@@ -276,4 +276,4 @@ skills:
       level: 70%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Copyright © Mikhail Moskovchenko 2023-2026. Theme by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
